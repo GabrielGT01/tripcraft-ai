@@ -1,0 +1,24 @@
+# TripCraft backend runtime dependencies
+
+# FastAPI server
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+
+# LangChain / LangGraph
+langchain[mcp]>=1.4.0
+langchain-core
+langchain-openai
+langgraph
+langgraph-checkpoint-aws
+
+# MCP
+mcp[cli]
+
+# AWS
+boto3
+mangum
+botocore
+
+

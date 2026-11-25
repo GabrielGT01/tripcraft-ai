@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Lambda build output
+lambda-package/
+lambda-deployment.zip
+*.zip
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# App runtime output
+travel_plan_file/
+
+# OS
+.DS_Store
+
